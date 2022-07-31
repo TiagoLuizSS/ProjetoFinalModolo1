@@ -1,0 +1,110 @@
+ <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+    </style>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/forca.css" media="screen">
+    <script src="./JS/forca.js" defer></script>
+    <title>adventureSquad7</title>
+</head>
+<body>
+    <header>
+        <h1 id="ceulogo"><img src="./IMAGEM/adventureSquad7.LOGOtransparente.png"></h1>
+        <nav>
+            <ul id="menuprincipal">
+                <li class="botaolprincipal">
+                    <a class="home" href="./index.html">Home</a>
+                </li>
+
+                <li class="botaolprincipal">
+                    <a class="produto" href="">Produtos</a>
+                </li>
+
+                <li class="botaolprincipal">
+                    <a class="rotas" href="">Rotas de trilhas</a>
+                </li>
+
+                <li class="botaolprincipal">
+                    <a class="sobrenos" href="">Sobre nós</a>
+                </li>
+
+                <li class="botaolprincipal">
+                   <a class="contatos"href="">Contatos</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+<main>
+    <div class="bannerfrase">
+        <img class="banner" src="./IMAGEM/paisagem4.png">
+        <q> A vida não é medida pelo número de vezes que respiramos, mas pelos momentos que nos deixaram sem fôlego</q><cite> - Bob Marley</cite>
+    </div>
+    <h3>!Acerte o nome do Objeto e ganhe ate 50% de desconto!</h3>
+    <ul>
+        <li>**Regras**</li>
+        <li>A cada erro voce perde 10% do seu desconto</li>
+        <li>voce pode pedir até tres dicas</li>
+        <li>a cada dica que voce pede perde 10% </li>
+        <li>!BOA SORTE!</li>
+    </ul>
+    <div class="container">
+        <div class="container2">
+            <span><h1 id="desconto">50</h1>% DE SESCONTO!</span>
+            <h2 id="ganhou"></h2>
+        </div>
+        <div id="palavra-escondida"></div>
+        <div id="teclado">
+            <div class="botoes">
+                <button id="botao-A" onclick="verificarLetraSelecionada('A')">A</button>
+                <button id="botao-B" onclick="verificarLetraSelecionada('B')">B</button>
+                <button id="botao-C" onclick="verificarLetraSelecionada('C')">C</button>
+                <button id="botao-D" onclick="verificarLetraSelecionada('D')">D</button>
+                <button id="botao-E" onclick="verificarLetraSelecionada('E')">E</button>
+                <button id="botao-F" onclick="verificarLetraSelecionada('F')">F</button>
+                <button id="botao-G" onclick="verificarLetraSelecionada('G')">G</button>
+                <button id="botao-H" onclick="verificarLetraSelecionada('H')">H</button>
+                <button id="botao-I" onclick="verificarLetraSelecionada('I')">I</button>
+            </div>
+            <div class="botoes">
+                <button id="botao-J" onclick="verificarLetraSelecionada('J')">J</button>
+                <button id="botao-K" onclick="verificarLetraSelecionada('K')">K</button>
+                <button id="botao-L" onclick="verificarLetraSelecionada('L')">L</button>
+                <button id="botao-M" onclick="verificarLetraSelecionada('M')">M</button>
+                <button id="botao-N" onclick="verificarLetraSelecionada('N')">N</button>
+                <button id="botao-O" onclick="verificarLetraSelecionada('O')">O</button>
+                <button id="botao-P" onclick="verificarLetraSelecionada('P')">P</button>
+                <button id="botao-Q" onclick="verificarLetraSelecionada('Q')">Q</button>
+                <button id="botao-R" onclick="verificarLetraSelecionada('R')">R</button>
+            </div>
+            <div class="botoes">
+                <button id="botao-S" onclick="verificarLetraSelecionada('S')">S</button>
+                <button id="botao-T" onclick="verificarLetraSelecionada('T')">T</button>
+                <button id="botao-U" onclick="verificarLetraSelecionada('U')">U</button>
+                <button id="botao-V" onclick="verificarLetraSelecionada('V')">V</button>
+                <button id="botao-W" onclick="verificarLetraSelecionada('W')">W</button>
+                <button id="botao-X" onclick="verificarLetraSelecionada('X')">X</button>
+                <button id="botao-Y" onclick="verificarLetraSelecionada('Y')">Y</button>
+                <button id="botao-Z" onclick="verificarLetraSelecionada('Z')">Z</button>
+                <button id="botao-reset" onclick="reiniciar()">Reiniciar</button>
+                <button id="botao-dica" onclick="dicas()">Dica</button>
+            </div>
+        </div>
+        <div id="dica">
+            <div id="dica1"></div>
+            <div id="dica2"></div>
+            <div id="dica3"></div>
+        </div>
+    </div>
+</main>
+    <footer>
+        <div class="copy">
+            <img class="logorodape" src="./IMAGEM/adventureSquad7.LOGOtransparente.png">
+            <p class="copyright">&copy;copyright Adventure squad 7 - 2022</p>
+        </div>
+    </footer>
+</body>
+</html>

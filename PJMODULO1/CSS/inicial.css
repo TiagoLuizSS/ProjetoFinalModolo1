@@ -1,0 +1,261 @@
+* {
+    font-family: 'Permanent Marker', cursive;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+body {
+    width:100%;
+    height:100vh;
+}
+header {
+    height:50px;
+    background-color: rgb(53, 124, 124);
+}
+img{
+    height:200px;
+    width:200px;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: -webkit-linear-gradient(#1A5C99, #b8c2f7);
+    height: 180px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+}
+#menuprincipal {
+    background: -webkit-linear-gradient(#869D7B, #151D11);
+    box-shadow: 50px 40px 40px rgb(2, 5, 5);
+    position:absolute;
+    height: 40px;
+    width:99%;
+    top: 160px;
+    border-left: solid 2px color#223b33;
+    border-radius: 15px;
+    border-bottom: solid 5px rgb(5, 7, 6);
+}
+.material-symbols-outlined {
+    color: #06fa80;
+    box-shadow: 25px 0px 10px rgb(104, 60, 29);
+}
+.botaolprincipal {
+    display:inline;
+}
+.home {
+    position: absolute;
+    top: 8px;
+    left: 10%;
+    height: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FAE1CB;
+}
+.produto {
+    position: absolute;
+    top: 8px;
+    left: 19%;
+    height: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FAE1CB;
+}
+.rotas {
+    position: absolute;
+    top: 8px;
+    left: 30%;
+    height: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FAE1CB;
+}
+.sobrenos {
+    position: absolute;
+    top: 8px;
+    left: 47%;
+    height: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FAE1CB;
+}
+.contatos {
+    position: absolute;
+    top: 8px;
+    right:10%;
+    height: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FAE1CB;
+}
+.botaolprincipal :hover {
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 20px rgb(64, 172, 163);
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+.home :active {
+    transform: scale(0.9);
+
+
+}
+.produto :active {
+    transform: scale(0.9);
+
+
+}
+.rotas :active {
+    transform: scale(0.9);
+
+
+}
+.sobrenos :active {
+    transform: scale(0.9);
+
+
+}
+.contatos :active {
+    transform: scale(0.9);
+
+
+}
+.banner {
+    width: 100%;
+    height:260px;
+    margin: 130px 0 0 ;
+    box-shadow: 0px 40px 40px rgb(64, 66, 66);
+}
+.bannerfrase {
+    height: 430px;
+}
+q {
+    height: 30px;
+    position: absolute;
+    color: #D0AE8D;
+    opacity: 70%;
+    box-shadow: 0px 30px 50px chocolate ;
+    font-size: 25px;
+    top:300px;
+    left:20%;
+}
+cite {
+    height: 30px;
+    position: absolute;
+    color: rgb(0, 0, 0);
+    opacity: 70%;
+    box-shadow: 0px 30px 50px chocolate ;
+    font-size: 20px;
+    top:325px;
+    left:70%;
+}
+main {
+    height: 820px
+}
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items:baseline;
+    margin: 0 0 60px;
+    height: 80px;
+    color: #966d3e;
+    font-size: 35px;
+    background-color: #ffffff;
+    text-transform: uppercase;
+}
+.desconto {
+    color: #06fa80;
+    font-size: 60px;
+    margin: 0 30px 0 30px;
+    height: 90px;
+}
+.chamadaforca {
+    text-decoration: none;
+}
+.chamadaforca :hover {
+    transition: 0.3s;
+    color: #06fa80;
+}
+.produtos {
+    background: -webkit-linear-gradient(#ffffff, #966d3e);
+    display: block;
+    height: 680px;
+}
+.produtoo {
+    display: inline;
+    width: 100%;
+    height: 20px;
+}
+.primeirafileira {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    height: 200px;
+}
+.segundafileira {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    height: 250px;
+}
+p {
+    height: 20px;
+}
+.nomedoproduto {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.valor {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    padding-top: 10px;
+    color: #122b03;
+}
+.imagem {
+    border: solid 2px  rgb(255, 255, 255);
+    border-radius: 25%;
+}
+.produtocss {
+    text-decoration: none;
+}
+.produtocss :hover {
+    transition: 0.3s;
+    box-shadow: 0px 20px 40px rgb(71, 62, 53);
+}
+.produtocss :active {
+    transform: scale(0.9);
+}
+footer {
+    text-align: center;
+    background-color: #100803;
+    height: 240px;
+
+}
+.copy {
+    height: 5px;
+    text-align: center;
+}
+.montanha {
+    position: absolute;
+    top: 1200px;
+    left: 0;
+    height: 400px;
+    width: 310px;
+}
+.copyright {
+    height: 10px;
+    color: #3a3733;
+}
